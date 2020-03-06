@@ -1,5 +1,5 @@
 function A = createA(D, W, theta, nx, ny, dx, dy, dt)
-    
+
 
 G = @(i,j) i + (j-1)*ny; 
 
